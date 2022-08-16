@@ -3,18 +3,38 @@
 body {
   margin: 0;
   /* background-color: rgba(220, 220, 66, 0.5); */
-  text-align: center;
+  /* text-align: center; */
   background: url(./images/photo-1530053969600-caed2596d242.avif) no-repeat rgba(222, 222, 222, 0.5) center bottom;
   min-height: 100vh;
 
 }
 
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
-    background-color: rgba(220, 220, 66, 0.5);
+  background-color: rgba(220, 220, 66, 0.5);
 }
 
 h1 {
   color: #FFF;
   margin: 0;
+  font-size: 40px;
+  text-align: center;
+  line-height: 1;
+}
+
+h1 > span {
+  font-size: 0.5em;
+
+}
+
+#sub {
+  background: url(./images/photo-1660554042520-db71c7fea8d1.avif) no-repeat rgba(61, 131, 161, 0.5) center bottom;
+}
+
+#sub .container {
+  min-height: 100vh;
+  background-color: rgba(100, 15, 236, 0.5);
 }
